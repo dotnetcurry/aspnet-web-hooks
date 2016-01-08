@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubRepoActivities", "GitHubRepoActivities\GitHubRepoActivities.csproj", "{399C66E0-6E09-4A42-A611-F66C66A63318}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{CD9C9401-007B-4447-A87E-1BF244FC9154}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{17DF677A-F5C3-43CB-BDAB-27F7B307D342}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\GitHubRepoActivities-WAWS-dev.json = PublishScripts\Configurations\GitHubRepoActivities-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{399C66E0-6E09-4A42-A611-F66C66A63318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399C66E0-6E09-4A42-A611-F66C66A63318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399C66E0-6E09-4A42-A611-F66C66A63318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399C66E0-6E09-4A42-A611-F66C66A63318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17DF677A-F5C3-43CB-BDAB-27F7B307D342} = {CD9C9401-007B-4447-A87E-1BF244FC9154}
+	EndGlobalSection
+EndGlobal
